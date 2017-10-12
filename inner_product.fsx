@@ -1,5 +1,6 @@
 // By Rolf Kinder Gilet 
 // takes two vectors represented as int lists and returns their inner product
+//Assuming the two lists are of equal length
 
 let rec innerproduct xs ys=
     match xs,ys with
